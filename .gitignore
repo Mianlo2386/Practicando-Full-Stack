@@ -1,0 +1,86 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+../../../-1.14-windows.xml
+../../../.android/
+../../../.bash_history
+../../../.bito/
+../../../.cache/
+../../../.config/
+../../../.emulator_console_auth_token
+../../../.gitconfig
+../../../.gradle/
+../../../.m2/
+../../../.npmrc
+../../../.quokka/
+../../../.rest-client/
+../../../.th-client/
+../../../.vscode/
+../../../3D Objects/
+../../../Android Auto/
+../../../AndroidStudioProjects/Aplicacion1/
+../../../AndroidStudioProjects/AppPracrica1/
+../../../AndroidStudioProjects/AppPractica/
+../../../AndroidStudioProjects/AppPractica1/
+../../../AndroidStudioProjects/AppPractica1a/
+../../../AndroidStudioProjects/AprendiendoAndroid/
+../../../AndroidStudioProjects/AprendiendoAndroid2/
+../../../AndroidStudioProjects/Curso de Kotlin/
+../../../AndroidStudioProjects/Miprimerapp/
+../../../AndroidStudioProjects/Pruebadeclonacion/
+../../../AndroidStudioProjects/ticmas-lab-android/
+../../../AndroidStudioProjects2/
+../../../AppData/
+../../../Contacts/
+../../../Desktop/
+../../Clase de Mati.txt
+../../Con arreglos de Sol.txt
+../../Curso UTN/
+../../Esto funciona pero falta lo de los tags.txt
+../../Fax/
+../../Scanned Documents/
+../../codigo sol.txt
+../../desktop.ini
+../../../Downloads/
+../../../Favorites/
+../../../IntelGraphicsProfiles/
+../../../Links/
+../../../Music/
+../../../NTUSER.DAT
+../../../NTUSER.DAT{ff4e017c-7d99-11ed-8406-0ae0afc103cc}.TxR.0.regtrans-ms
+../../../NTUSER.DAT{ff4e017c-7d99-11ed-8406-0ae0afc103cc}.TxR.1.regtrans-ms
+../../../NTUSER.DAT{ff4e017c-7d99-11ed-8406-0ae0afc103cc}.TxR.2.regtrans-ms
+../../../NTUSER.DAT{ff4e017c-7d99-11ed-8406-0ae0afc103cc}.TxR.blf
+../../../NTUSER.DAT{ff4e017d-7d99-11ed-8406-0ae0afc103cc}.TM.blf
+../../../NTUSER.DAT{ff4e017d-7d99-11ed-8406-0ae0afc103cc}.TMContainer00000000000000000001.regtrans-ms
+../../../NTUSER.DAT{ff4e017d-7d99-11ed-8406-0ae0afc103cc}.TMContainer00000000000000000002.regtrans-ms
+../../../OneDrive/
+../../../Pictures/
+../../../Saved Games/
+../../../Searches/
+../../../Tracing/
+../../../Videos/
+../../../ntuser.dat.LOG1
+../../../ntuser.dat.LOG2
+../../../ntuser.ini
+

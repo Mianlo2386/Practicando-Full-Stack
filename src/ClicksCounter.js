@@ -14,12 +14,12 @@ const ClicksCounter = () => {
   const handleRightClick = () => {
         setAll(allClicks.concat('R')) 
            setRight(right + 1)  }
-           console.log(allClicks);
+           console.log('el valor del array es', allClicks);
       return (
         <div>
           {left}
-          <Button onClick={handleLeftClick} text='left' />
-          <Button onClick={handleRightClick} text='right' />
+          <Button onClick={handleLeftClick} text='Left' />
+          <Button onClick={handleRightClick} text='Right' />
           {right}
           <History allClicks={allClicks} />
         </div>

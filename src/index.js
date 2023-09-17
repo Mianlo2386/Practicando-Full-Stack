@@ -7,6 +7,8 @@ import Hello from './Hello';
 import Counter from './Counter';
 import CounterWithButton from './CoounterWithButton';
 import ClicksCounter from './ClicksCounter';
+import ReactHello from './ReactHello';
+import Feedback from './Feedback';
 
 
 const App = () => {
@@ -45,6 +47,10 @@ const App = () => {
         <CounterWithButton/>
         <h1>Contador de clicks</h1>
         <ClicksCounter/>
+        <h1>Hello React</h1>
+        <ReactHello/>
+        <h1>Feedback</h1>
+        <Feedback/>
     </>
   )
 }

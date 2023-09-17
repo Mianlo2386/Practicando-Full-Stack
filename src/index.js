@@ -5,6 +5,8 @@ import Content from './Content';
 import Total from './Total';
 import Hello from './Hello';
 import Counter from './Counter';
+import CounterWithButton from './CoounterWithButton';
+import ClicksCounter from './ClicksCounter';
 
 
 const App = () => {
@@ -38,10 +40,11 @@ const App = () => {
         <Hello name="Maya" age={26 + 10} />
         <Hello name={name} age={age} />
         <h1>Contador</h1> 
-        <h1>Contador de prueba</h1> 
-         
         <Counter/>
-      
+        <h1>Contador con botón</h1>
+        <CounterWithButton/>
+        <h1>Contador de clicks</h1>
+        <ClicksCounter/>
     </>
   )
 }

@@ -9,7 +9,7 @@ import CounterWithButton from './CoounterWithButton';
 import ClicksCounter from './ClicksCounter';
 import ReactHello from './ReactHello';
 import Feedback from './Feedback';
-
+import Anecdotes from './Anecdotes';
 
 const App = () => {
   const course = {
@@ -51,6 +51,8 @@ const App = () => {
         <ReactHello/>
         <h1>Feedback</h1>
         <Feedback/>
+        <h1>Anecdotes</h1>
+        <Anecdotes/>
     </>
   )
 }
